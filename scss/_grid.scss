@@ -1,0 +1,12 @@
+.grid {
+	padding: $padding $padding;
+}
+
+[class*='grid-'] {
+	float: left;
+	padding-right: $padding;
+}
+
+.grid-1-2 {
+	width: 50%;
+}

@@ -1,0 +1,107 @@
+@import "compass/css3";
+@import "normalize";
+@import "bits";
+
+body {
+	
+}
+@import "grid";
+// -------------------------------------- HEADER
+.logo {
+	 margin: 50px auto 10px;
+	 width: 33px;
+	 height: 34px;
+	 padding: 8px;
+	a {
+		background: $red;
+		color: white;
+		
+	}
+}
+
+// ---------------------------------------NAV
+.main-nav {  
+	@include font-stack-nav;
+	list-style: none;
+	margin: 0 auto 100px auto;
+	padding: 0;
+	text-align: center;
+	
+	li {
+		display: inline;
+	}
+	a {
+		display: inline-block;
+		padding: 5px;
+
+	}
+	
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	a:active {
+		text-decoration: underline;
+	}
+}
+
+.font-btns {
+	list-style: none;
+	margin: 0 auto 20px auto;
+	padding: 0;
+	text-align: center;
+	
+	li {
+		display: inline;
+	}
+	a {
+		display: inline-block;
+		padding: 5px;
+		color: white;
+
+	}
+}
+
+// -------------------------------------- PAGE
+.page-wrap {
+	width: 55%;
+	margin: 0 auto;
+	padding: 5px;
+
+}
+	
+
+// -------------------------------------- EXPANDED VIEW
+.font-btns {
+	list-style: none;
+	margin: 0 auto 20px auto;
+	padding: 0;
+	text-align: center;
+	
+	li {
+		display: inline;
+	}
+	a {
+		display: inline-block;
+		padding: 5px;
+		color: white;
+
+	}
+}
+
+.expanded {
+	background: $red;
+	color: white;
+	width: 100%;
+
+	p {
+	padding: 0px 200px 100px;
+	width: 55%;
+	margin: 0 auto;
+}
+
+}
+
+
+
