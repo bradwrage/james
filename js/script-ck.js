@@ -1,0 +1,1 @@
+$("article p, article .font-btns").hide();$("article h1").addClass("pointer").click(function(){var e=$(this).parent(),t=$(this).siblings();if(e.hasClass("expanded"))t.slideToggle("slow").promise().done(function(){e.removeClass("expanded")});else{e.addClass("expanded");t.slideToggle("slow")}});
