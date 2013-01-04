@@ -11,3 +11,5 @@ $('article h1').addClass('pointer').click(function() {
       $siblings.slideToggle('slow');
     }
   });
+
+
