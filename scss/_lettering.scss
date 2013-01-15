@@ -1,78 +1,12 @@
-@import "compass/css3";
-@import "normalize";
-@import "bits";
-@import "toolbox";
-@import "typography";
-@import "nav";
-@import "grid";
-
-* {
-	@include box-sizing(border-box);
-
-}
-
-header {
-	margin-bottom: 200px;
-}
-
-h1 {
-	color: $red;
-
-}
 
 
-a {
-  text-decoration: none;
-  color: #101010;
-}
-// -------------------------------------- HEADER
-.logo {
-	 @include font-stack-wisdom;
-	 margin: 50px auto 10px;
-	 width: 34px;
-	 height: 34px;
-	 padding: 5px 10px 6px 10px;
-	a {
-		background: #e05f5a;
-		color: white;
-		font-size: 1.1em;
-		}
-	}
-
-// -------------------------------------- Numbers and Headers
-.numbers {
-	font-size: 20px;
-	color: #E05F5A;
-	float: right;
-	line-height: 120px;
-}
-
-
-// -------------------------------------- PAGE
-.page-wrap {
-	width: 100%;
-	margin: 0 auto;
-	padding: 5px;
-}
-.pointer {
-    cursor: pointer;
-    }
+.lettering {
 
 .expanded {
-	h1 {
-			color: #fff;
-		}
-		.numbers {
-			color: #fff;
-		}
-		ul span {
-			color: white;
-		}
-	color: white;
 	background: #e05f5a;
 	@include transition(background .2s linear);
+	color: white;
 	width: 100%;
-
 	}
 
  
@@ -86,7 +20,7 @@ h1 {
 	line-height: 100px;
 	margin-bottom: 18px;
 	margin-top: 0;
-	
+	color: $red;
 }
 
 ol li {
@@ -98,18 +32,16 @@ ol li {
 }
 
 p {
-
 	font-size: 18px;
-	width: 100%;
+	width: 90%;
 	line-height: 25px;
 	margin: 0 0 0 0;
-	font-weight: lighter;	
+		
 }
 
 span {
 		font-size: 10px;
-		padding-right: 50px;
-		}
+}
 
 h2 {
 	font-size: 18px;
@@ -126,8 +58,11 @@ h3 {
 
 
 
-.module {
-	margin-right:100px
+.right-module {
+	margin-top: 30px;
+	background: 0;
+	margin-left: 20px;
+	padding-left: 20px;
 }
 
 .left-module {
@@ -144,7 +79,7 @@ footer {
 }
 
 
-
+}
 
 .buy-btns {
 	
@@ -179,3 +114,12 @@ footer {
 	
 	}
 }
+
+
+
+
+
+
+
+
+

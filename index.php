@@ -1,66 +1,76 @@
-
-<body class="home">
-
-<div class="page-wrap">
-
 <?php include("parts/header.php"); ?>
 
 <?php include("parts/nav.php"); ?>
 
-</div>  <!--- END div.page-wrap -->
-<section class="fonts">
-	<article>
-		<h1 id="duke">Duke</h1>
-    <ul class="font-btns">
-		  <li><a href="#">$75 BUY</a></li>
-		  <li><a href="">PDF</a></li>
-		</ul>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit, nunc a viverra ultrices, leo ipsum faucibus elit, in fermentum magna eros sed ante. Donec est mauris, consequat eget viverra a, gravida tempor lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam sodales congue dignissim. Vivamus eleifend laoreet erat, vel pharetra nibh facilisis id. 
-</p>
-	</article>
-	<article>
-		<h1 id="edmondsans">Edmondsans</h1>
-		<ul class="font-btns">
-		  <li><a href="">$75 BUY</a></li>
-		  <li><a href="">PDF</a></li>
-		</ul>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit, nunc a viverra ultrices, leo ipsum faucibus elit, in fermentum magna eros sed ante. Donec est mauris, consequat eget viverra a, gravida tempor lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam sodales congue dignissim. Vivamus eleifend laoreet erat, vel pharetra nibh facilisis id. 
-</p>
-	</article>
-	<article>
-		<h1 id="mission">Mission Script</h1>
-    <ul class="font-btns">
-		  <li><a href="">$75 BUY</a></li>
-		  <li><a href="">PDF</a></li>
-		</ul>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit, nunc a viverra ultrices, leo ipsum faucibus elit, in fermentum magna eros sed ante. Donec est mauris, consequat eget viverra a, gravida tempor lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam sodales congue dignissim. Vivamus eleifend laoreet erat, vel pharetra nibh facilisis id. 
-</p>	
-	</article>
-	<article>
-		<h1 id="lavanderia">Lavanderia</h1>
-    <ul class="font-btns">
-		  <li><a href="">$75 BUY</a></li>
-		  <li><a href="">PDF</a></li>
-		</ul>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit, nunc a viverra ultrices, leo ipsum faucibus elit, in fermentum magna eros sed ante. Donec est mauris, consequat eget viverra a, gravida tempor lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam sodales congue dignissim. Vivamus eleifend laoreet erat, vel pharetra nibh facilisis id. 
-</p>
-	</article>
-	<article>
-		<h1 id="wisdom">Wisdom Script</h1>
-    <ul class="font-btns">
-		  <li><a href="">$75 BUY</a></li>
-		  <li><a href="">PDF</a></li>
-		</ul>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit, nunc a viverra ultrices, leo ipsum faucibus elit, in fermentum magna eros sed ante. Donec est mauris, consequat eget viverra a, gravida tempor lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam sodales congue dignissim. Vivamus eleifend laoreet erat, vel pharetra nibh facilisis id. 
-</p>
-		
-	</article>
-</section>
+	<body>
+		<div class="grid">
+			<p class="intro">
+				Welcome to the site
+			</p>
+		</div>
+			<div class="grid">
+				<div class="grid-1-8">
+					<span class="numbers">01</span>
+				</div>
+				<div class="grid-middle"> 
+					<h1 id="duke">Duke</h1>
+					<div class="module">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+							dolor quam veritatis dolorem eum omnis doloribus commodi iste
+							placeat eligendi ex nulla architecto perferendis est totam quidem
+							laboriosam cumque quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+							dolor quam veritatis dolorem eum omnis doloribus commodi iste
+							placeat eligendi ex nulla architecto perferendis est totam quidem
+							laboriosam cumque quisquam. </p>
+					</div>
+				</div>
+				<div class="grid-right">
+					<div class="right-module">
+						<ul class="buy-btns">
+						  	<li><span>$100</span></li>
+						  	<li><a href="">BUY</a></li>
+						</ul>
+						<p>one two three <br/> <span>THREE WEIGHTS </p></span>
+						<p>Please Dad Please Dad <br/><span> ALTERNATE SET OF CAPITALS </span></p>
+						<p> bfhklqt bfhklqt <br/> <span>STYLISTIC ALTERNATIVES </p></span>
+					</div>
+				</div>
+			</div>
 
+		<div class="grid">
+			<div class="grid-1-8">
+					<span class="numbers">02</span>
+				</div>
+			<div class="grid-middle"> 
+				<h1 id="edmondsans">Edmondsans</h1>
+				<div class="module">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+							dolor quam veritatis dolorem eum omnis doloribus commodi iste
+							placeat eligendi ex nulla architecto perferendis est totam quidem
+							laboriosam cumque quisquam. </p>
+				</div>
+			</div>
+			<div class="grid-right">
+				<div class="right-module">
+					<ul class="buy-btns">
+					  <li><span>$100</span></li>
+					  <li><a href="">BUY</a></li>
+					</ul>
+					<p>one two three <br/> <span>THREE WEIGHTS </p></span>
+					<p>Please Dad Please Dad <br/><span> ALTERNATE SET OF CAPITALS </span></p>
+					<p> bfhklqt bfhklqt <br/> <span>STYLISTIC ALTERNATIVES </p></span>
+				</div>
+			</div>
+			
+		</div>
+	            
+		
+
+	
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="/js/script.js" type="text/javascript"></script>
-
-</body>
+	</body>
+</grid> <!--- END div.grid --->
 <?php include("parts/footer.php"); ?>
-	</html>
+</html>
